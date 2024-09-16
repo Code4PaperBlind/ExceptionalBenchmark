@@ -94,7 +94,7 @@ def description():
             "threshold": "BLOCK_ONLY_HIGH",
         },
     ]
-    genai.configure(api_key="AIzaSyAgLnMIqKYQPDBGUjlTKHaIZ016q8wq3b4")
+    genai.configure(api_key="YOUR API KEY")
     client_options = client_options_lib.ClientOptions(api_endpoint="us-east1-generativelanguage.googleapis.com") 
 
     generation_config = {
